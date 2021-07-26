@@ -1,0 +1,63 @@
+footer {
+  background: #39424c;
+  font-size: 14px;
+}
+
+footer > div {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: 40px 0px;
+}
+
+footer .footer_links {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px 0;
+  padding: 0 0 12px 0;
+  border-bottom: 1px solid #485561;
+  color: #b2bbc3;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .brand span {
+  margin: 0 24px 0 0;
+}
+
+
+footer .sns {
+  display: flex;
+}
+
+footer .sns a img {
+  width: 28px;
+  opacity: 0.6;
+}
+
+footer .sns a+a {
+  margin: 0 0 0 4px;
+}
+
+
+footer .info {
+  color: #b2bbc3;
+  line-height: 18px;
+  font-weight: 300;
+  letter-spacing: -.5px;
+  margin: 0;
+  line-height: 22px;
+}
+
+footer .info span {
+  display: inline;
+  margin: 0 10px 0 0;
+  color: #647586;
+  font-size: 12px;
+}
+
+footer .info strong {
+  color: #b2bbc3;
+  font-weight: 300;
+}

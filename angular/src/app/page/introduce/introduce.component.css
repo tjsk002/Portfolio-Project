@@ -1,0 +1,256 @@
+.about .title h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.about .keyword {
+  margin: 48px 0 0 0;
+}
+
+.about .keyword ul {
+  font-size: 0px;
+}
+
+.about .keyword li:first-child {
+  margin: 0px;
+}
+
+.about .keyword li {
+  display: inline-block;
+  text-align: center;
+  background: #f2f2f2;
+  padding: 20px;
+  width: 148px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: 0 0 0 72px;
+}
+
+.about .keyword li img {
+  width: 64px;
+  opacity: 0.9;
+}
+
+
+.about .keyword p {
+  font-size: 14px;
+  margin: 2px 0 0 0;
+}
+
+.about .introduce {
+  padding: 80px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.about .introduce h2 {
+  font-size: 24px;
+  margin: 0 0 16px 0;
+}
+
+.about .introduce p {
+  font-size: 16px;
+}
+
+.about .skills {
+  padding: 80px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.about .skills h2 {
+  font-size: 24px;
+  margin: 0 0 16px 0;
+}
+
+.about .skills p {
+  font-size: 16px;
+}
+
+.about .skills .category.first {
+  padding: 60px 0 40px 0;
+}
+
+.about .skills .category {
+  font-size: 0px;
+  padding: 0 0 40px 0;
+  display: flex;
+}
+
+.about .skills .detail {
+  width: 36%;
+  font-size: initial;
+  box-sizing: border-box;
+}
+
+.about .skills .detail .default {
+  display: flex;
+}
+
+.about .skills .detail > div {
+  height: 100%;
+  display: none;
+  align-items: center;
+}
+
+.skillsBox {
+  padding: 90px 0 20px 0;
+}
+.about .skills .detail .default img {
+  margin: 0px 24px 0 0;
+  opacity: 0.7;
+  width: 84px;
+}
+
+.about .skills .list {
+  padding: 0 0 0 32px;
+  width: 70%;
+}
+
+.about .skills .list ul {
+  font-size: 0px;
+}
+
+.about .skills .list li {
+  width: 50%;
+  display: inline-block;
+  margin: 0 0 28px 0;
+  height: 48px;
+}
+
+.about .skills .list li img {
+  float: left;
+  margin: 0 12px 0 0;
+}
+
+.about .skills .list li div {
+  display: block;
+  font-size: 14px;
+}
+
+.about .skills .list li div h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.about .skills .list li div .desc {
+  font-size: 14px;
+}
+
+
+.about .skills .category {
+  font-size: 0px;
+  padding: 0 0 40px 0;
+  display: flex;
+}
+
+.about .skills .detail {
+  width: 36%;
+  font-size: initial;
+  box-sizing: border-box;
+}
+
+.about .skills .detail .default {
+  display: flex;
+}
+
+.about .skills .detail > div {
+  height: 100%;
+  display: none;
+  align-items: center;
+}
+
+.about .skills .detail .default img {
+  margin: 0px 24px 0 0;
+  opacity: 0.7;
+  width: 84px;
+}
+
+.about .skills .list {
+  padding: 0 0 0 32px;
+  width: 70%;
+}
+
+.about .skills .list ul {
+  font-size: 0px;
+}
+
+.about .skills .list li {
+  width: 50%;
+  display: inline-block;
+  margin: 0 0 28px 0;
+  height: 48px;
+}
+
+.about .skills .list li img {
+  float: left;
+  margin: 0 12px 0 0;
+}
+
+.about .skills .list li div {
+  display: block;
+  font-size: 14px;
+}
+
+.about .skills .list li div h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.about .skills .list li div .desc {
+  font-size: 14px;
+}
+
+.about .skills .category {
+  font-size: 0px;
+  padding: 0 0 40px 0;
+  display: flex;
+}
+
+.about .brand {
+  padding: 80px 0;
+}
+
+.about .brand h2 {
+  font-size: 24px;
+  margin: 0 0 16px 0;
+}
+
+.about .brand p {
+  font-size: 16px;
+}
+
+.about .brand .logo_box {
+  display: flex;
+  margin: 32px 0 0 0;
+}
+
+.aboutMeBox {
+  display: block !important;
+}
+
+.about .brand .logo_box .desc {
+  display: flex;
+  align-items: center;
+}
+
+.about .brand p {
+  font-size: 16px;
+}
+
+.about .brand .logo_box .bi {
+  flex: 1;
+  text-align: center;
+}
+
+.introduceBox {
+  margin-top: 70px;
+}
+
+.about .skills .list .status.p {
+  color: #004abf;
+}
+.about .skills .list .status {
+  font-size: 12px;
+  margin: 0 0 0 8px;
+  display: inline-block;
+  font-weight: 500;
+}

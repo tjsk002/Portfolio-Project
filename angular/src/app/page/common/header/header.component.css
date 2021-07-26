@@ -1,0 +1,41 @@
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  -webkit-box-shadow: 7px 9px 5px rgb(0 0 0 / 3%);
+  -moz-box-shadow: 7px 9px 5px rgba(0,0,0,0.03);
+  box-shadow: 7px 9px 5px rgb(0 0 0 / 3%);
+}
+
+.header-Box {
+  width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.header-menu {
+  float: left;
+  margin-left: 20px;
+}
+
+.header-menu li {display: inline-block; cursor: pointer}
+.header-menu li:hover {background-color: #9EC8FF; color: #ffffff;}
+.header-menu li a {display: block;  line-height: 81px;  padding: 0 20px;  font-size: 16px; font-weight: 400}
+
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: auto;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: auto;
+  color: #ffffff;
+}

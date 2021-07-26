@@ -1,0 +1,93 @@
+<main id="contents" class="about">
+  <div>
+    <section class="location introduceBox">
+      <div>
+        <p>
+          <span class="path">현재 화면 위치</span>
+          <span class="path on">소개</span>
+        </p>
+      </div>
+    </section>
+    <section class="title">
+      <div>
+        <h2 *ngFor="let item of introduceVo.title">{{item}}</h2>
+      </div>
+    </section>
+    <section class="keyword">
+      <div>
+        <ul>
+          <li *ngFor="let item of introduceVo.icon">
+            <img [src]="item.img">
+            <p *ngFor="let textItem of item.text">{{textItem}}</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="introduce">
+      <div>
+
+        <div *ngIf="!aboutMeVo.flag">
+          <button class="updateButton" (click)="aboutMeVo.flag = true">수정</button><h2>개발자 소개</h2>
+          <p *ngFor="let item of introduceVo.aboutMe" >{{item ? item : ''}}<br></p>
+        </div>
+        <div *ngIf="aboutMeVo.flag">
+          <button class="cancleButton" (click)="aboutMeVo.flag = false">수정 취소</button><h2>개발자 소개</h2>
+          <div *ngFor="let item of aboutMeVo.aboutMeList; let i = index;">
+            <input type="text" class="introduceInput" [(ngModel)]="aboutMeVo.aboutMeList[i]">
+            <button class="introduceInputAdd" *ngIf="i === aboutMeVo.aboutMeList.length - 1" (click)="aboutMeVo.aboutMeList.push('')">소개 한줄 추가하기</button>
+          </div>
+        </div>
+        <div *ngIf="aboutMeVo.flag" class="commitButtonBox">
+          <button class="commitButton">저장하기</button>
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <div>
+        <h2>기술스택 소개</h2>
+        <p *ngFor="let item of introduceVo.aboutSkills">{{item ? item : br}}</p>
+        <div class="skillsBox">
+          <div class="category" *ngFor="let item of introduceVo.skills">
+            <div class="detail">
+              <div class="default">
+                <div>
+                  <h3>{{item.skillType}}</h3>
+                  <p>{{item.content}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="list">
+              <ul>
+                <li *ngFor="let skillItem of item.skillList">
+                  <img [src]="skillItem.img">
+                  <div>
+                    <h3>{{skillItem.skillNm}}<span class="status p">{{skillItem.level}}</span></h3>
+                    <span class="desc">{{skillItem.content}}</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="brand">
+      <div>
+        <h2>박요셉 소개</h2>
+        <p *ngFor="let item of introduceVo.introduceMeHeader">{{item}}</p>
+        <div class="logo_box">
+          <div class="desc aboutMeBox">
+            <div *ngFor="let item of introduceVo.introduceMe">
+              <p *ngIf="item">{{item}}</p>
+              <p *ngIf="!item"><br></p>
+            </div>
+
+          </div>
+          <div class="bi">
+            <img [src]="introduceVo.img">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>

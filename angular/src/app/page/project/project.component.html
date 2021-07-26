@@ -1,0 +1,90 @@
+<main id="contents" class="project">
+  <div>
+    <section class="location">
+      <div>
+        <p>
+          <span class="path">현재 화면 위치</span>
+          <span class="path on">프로젝트</span>
+        </p>
+      </div>
+    </section>
+    <section class="title">
+      <div>
+        <h2>
+          개발을 통해 작은 문제를 해결하고 개선한
+          <br class="visual_pc">
+          프로젝트들을 정리 했어요
+        </h2>
+      </div>
+    </section>
+    <section class="biz" id="biz">
+      <div>
+        <h2>회사 프로젝트</h2>
+        <p>구성원으로서 작은 성과를 냈던 프로젝트 입니다.</p>
+        <p>보안상 간략하게 내용을 담았습니다.</p>
+        <ul class="list-box">
+          <li *ngFor="let item of projectList.companyProject">
+            <div class="intro">
+              <div class="logo alingGrid">
+                <img [src]="item.img">
+              </div>
+              <div class="outline">
+                <h3>{{item.projectNm}}</h3>
+                <div>{{item.projectDate}}</div>
+                <div>{{item.contents}}</div>
+              </div>
+            </div>
+            <div class="detail">
+              <ul>
+                <li>{{item.skills}}</li>
+                <li *ngFor="let subItem of item.part">{{subItem}}</li>
+                <li>{{item.partner}}</li>
+              </ul>
+            </div>
+            <div>
+              <div class="projectDetailModal alingGrid" >
+                <a (click)="open()"><h3>자세히 보기</h3></a>
+              </div>
+            </div>
+            <!--            <div class="link">
+              <a href="https://www.lifeplanhd.kr/" target="_blank" class="icon">
+                링크<i class="mdi mdi-chevron-right"></i>
+              </a>
+            </div>-->
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="private" id="private">
+      <div>
+        <h2>개인 프로젝트</h2>
+        <p>다양한 기술을 학습하거나 간단한 문제를 해결하기 위한 프로젝트입니다.</p>
+        <p>일부 프로젝트는 배포되어 운영되고 있습니다.</p>
+        <div class="privateBox">
+          <ul>
+            <li *ngFor="let item of projectList.personalProject">
+              <a>
+                <div>
+                  <div class="imgBox">
+                    <img [src]="item.img">
+                  </div>
+                  <div>
+                    <span>{{item.projectNm}}</span>
+                  </div>
+                  <div>
+                    <span>{{item.skills}}</span>
+                  </div>
+                  <div>
+                    <span>{{item.projectDate}}</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <app-footer></app-footer>
+</main>

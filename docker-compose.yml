@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  angular:
+    build:
+      context: "angular/"
+    image: angular-app
+    env_file:
+      - "./angular/.env"
+    ports:
+      - 5000:3000
