@@ -4,7 +4,7 @@ import {MainComponent} from './page/main/main.component';
 import {ProjectComponent} from './page/project/project.component';
 import {IntroduceComponent} from './page/introduce/introduce.component';
 import {RegIntroduceComponent} from './page/reg/reg-introduce/reg-introduce.component';
-
+import {HistoryComponent} from './page/history/history.component';
 
 const routes: Routes = [
   {
@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'regIntroduce',
     component: RegIntroduceComponent
   },
+  {
+    path: 'history',
+    component: HistoryComponent
+  }
 ];
 
 @NgModule({

@@ -104,7 +104,7 @@ main .location .path {
   position: relative;
 }
 
-.alingGrid {
-  align-items: center;
-  display: grid;
-}
+/*.alingGrid {*/
+/*  align-items: center;*/
+/*  display: grid;*/
+/*}*/
