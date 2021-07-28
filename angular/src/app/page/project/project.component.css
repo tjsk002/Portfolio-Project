@@ -37,6 +37,23 @@ main .location .path {
   position: relative;
 }
 
+.titleText {
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  box-shadow: 0 0 0 5px #d8e2ff;
+  color: #004abf;
+  padding: 0 0 16px;
+  font-weight: 500;
+  width: 20%;
+}
+
+.subText {
+  line-height: 15px;
+  margin-top: 30px;
+}
+
 .project .title h2 {
   font-size: 28px;
   font-weight: 300;
@@ -93,6 +110,9 @@ main .location .path {
   font-size: 16px;
 }
 
+.project .biz .list-box {
+  margin-top: 60px;
+}
 .project .biz .list-box > li {
   display: flex;
   align-items: center;
@@ -137,13 +157,6 @@ main .location .path {
 .projectDetailModal h3:hover {
   cursor: pointer;
 }
-
-
-
-
-
-
-
 
 .hide, caption, legend {
   line-height: 0;

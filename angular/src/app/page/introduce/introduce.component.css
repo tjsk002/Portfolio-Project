@@ -246,9 +246,9 @@ main {
   display: block !important;
 }
 
-.introduceBox {
-  margin-top: 70px;
-}
+/*.introduceBox {*/
+/*  margin-top: 70px;*/
+/*}*/
 
 .skills .list .status.p {
   color: #004abf;

@@ -2,4 +2,11 @@ main {
   min-height: calc(100vh - 185px);
   padding-top: 81px;
 }
+main .location {
+  margin: 0 0 20px 0;
+}
 
+.skillsFirstBox {
+  height: 300px;
+  background-color: #9EC8FF;
+}

@@ -2,21 +2,24 @@
   <div class="header-Box">
     <nav class="header-menu">
       <ul>
-        <li>
+        <li class="navActive">
+          <a [routerLink]="['/']">Home</a>
+        </li>
+        <li class="navActive">
           <a [routerLink]="['/introduce']">Introduce</a>
         </li>
-        <li>
+        <li [routerLinkActive]="'active'">
           <a [routerLink]="['/skills']">Skills</a>
         </li>
-        <li>
+        <li [routerLinkActive]="'active'">
           <a [routerLink]="['/project']">Project</a>
         </li>
-        <li>
+        <li [routerLinkActive]="'active'">
           <a [routerLink]="['/history']">History</a>
         </li>
-        <li>
-          <a>ETC</a>
-        </li>
+        <!--        <li>-->
+        <!--          <a>ETC</a>-->
+        <!--        </li>-->
       </ul>
     </nav>
   </div>
