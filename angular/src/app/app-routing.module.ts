@@ -5,6 +5,7 @@ import {ProjectComponent} from './page/project/project.component';
 import {IntroduceComponent} from './page/introduce/introduce.component';
 import {RegIntroduceComponent} from './page/reg/reg-introduce/reg-introduce.component';
 import {HistoryComponent} from './page/history/history.component';
+import {SkillsComponent} from './page/skills/skills.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'introduce',
     component: IntroduceComponent
+  },
+  {
+    path: 'skills',
+    component: SkillsComponent
   },
   {
     path: 'regIntroduce',
