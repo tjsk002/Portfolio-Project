@@ -17,6 +17,8 @@
     <!--        </h2>-->
     <!--      </div>-->
     <!--    </section>-->
+
+    <!--    회사 프로젝트-->
     <section class="biz" id="biz">
       <div>
         <h2 class="titleText">Company Project</h2>
@@ -28,7 +30,7 @@
                 <img [src]="item.img">
               </div>
               <div class="outline">
-                <h3>{{item.projectNm}}</h3>
+                <h3><b>{{item.projectNm}}</b></h3>
                 <div>{{item.projectDate}}</div>
                 <div>{{item.contents}}</div>
               </div>
@@ -54,6 +56,8 @@
         </ul>
       </div>
     </section>
+
+    <!--    개인 프로젝트-->
     <section class="private" id="private">
       <div>
         <h2 class="titleText">Personal Project</h2>
@@ -82,7 +86,6 @@
         </div>
       </div>
     </section>
-
   </div>
   <app-footer></app-footer>
 </main>

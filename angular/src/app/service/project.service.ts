@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
@@ -8,6 +8,7 @@ export class ProjectService {
 
   // 프로젝트 리스트 (개인 프로젝트, 회사 프로젝트)
   readonly projectList: any = {
+    // 회사 프로젝트
     companyProject: [
       {
         projectNm: 'inPHRchild(APP)',
@@ -80,6 +81,8 @@ export class ProjectService {
         url: 'www.naver.com'
       }
     ],
+
+    // 개인 프로젝트
     personalProject: [
       {
         projectNm: '포트폴리오 홈페이지',
@@ -99,5 +102,6 @@ export class ProjectService {
   };
 
 
-  constructor() { }
+  constructor() {
+  }
 }

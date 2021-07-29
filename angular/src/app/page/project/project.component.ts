@@ -25,5 +25,4 @@ export class ProjectComponent implements OnInit {
     const modalRef = this.modalService.open(WebviewComponent, { size: 'lg' });
     modalRef.componentInstance.name = 'World';
   }
-
 }
