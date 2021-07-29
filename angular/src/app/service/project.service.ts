@@ -85,19 +85,20 @@ export class ProjectService {
     // 개인 프로젝트
     personalProject: [
       {
-        projectNm: '포트폴리오 홈페이지',
-        skills: 'VueJS, NodeJS, Bootsrap, JQuery, MYSQL',
+        projectNm: '메가박스 클론 프로젝트',
+        skills: 'JavaScript, JSP, MYSQL',
         projectDate: '2020.01 ~ 2021.03',
-        img: 'assets/image/project/childLogo.svg',
-        url: 'www.naver.com'
+        img: 'assets/image/history/megabox.JPG',
+        // url: 'www.naver.com'
       },
       {
-        projectNm: '포트폴리오 홈페이지',
-        skills: 'VueJS, NodeJS, Bootsrap, JQuery, MYSQL',
+        projectNm: '스타벅스 홈페이지',
+        skills: 'Angular, TypeScript',
         projectDate: '2020.01 ~ 2021.03',
-        img: 'assets/image/project/symLogo.svg',
-        url: 'www.naver.com'
+        img: 'assets/image/project/starbucks.JPG',
+        // url: 'www.naver.com'
       }
+
     ]
   };
 
