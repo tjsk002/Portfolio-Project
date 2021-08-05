@@ -34,13 +34,13 @@ export class IntroduceService {
     // 개발자 소개
     aboutMe: [
       '웹 브라우저를 통해 사람을 연결하고 현실 문제를 해결, 개선하는 매력에 푹 빠져 웹 개발을 길을 걷고 있습니다.',
-      'Java로 프로그래밍을 시작하여 Javascript의 매력에 푹빠져있고 사회와 코딩을 조금씩 알아가고 있는 사회 초년생입니다.',
+      'Java로 프로그래밍을 시작하여 JavaScript의 매력에 푹빠져있고 코딩을 조금씩 알아가고 있는 사회 초년생입니다.',
       '문제의식과 해결의 과정으로 성장하고 있으며 항상 새로운 기술에 적극적으로 도전합니다.',
       '',
       '다양한 개발 스코프를 공부하면서 웹 기획부터 배포·유지보수까지의 과정에 대해 경험해 보았습니다.',
       '최근에는 프론트엔드에 관심을 가지고 뿌리깊은 개발자를 목표로 노력하고 있습니다.',
       '',
-      '반갑습니다, 신뢰를 가장 중요시하는 개발자 00입니다.'
+      '반갑습니다, 신뢰를 가장 중요시하는 개발자 임선아입니다.'
     ],
     aboutSkills: [
       '현업에서 사용하여 프로젝트를 진행하거나 관심있게 학습해본 경험이 있는 기술스택입니다.',
@@ -127,48 +127,6 @@ export class IntroduceService {
           {
             skillNm: 'HTML',
             level: '연습',
-            content: '태그를 활용한 마크업',
-            img: 'assets/image/introduce/skill_javascript.png'
-          },
-        ]
-      },
-      {
-        skillType: 'Devops',
-        content: '형상관리와 유지보수 & 서버 구축',
-        skillList: [
-          {
-            skillNm: 'HTML',
-            level: '실무',
-            content: '태그를 활용한 마크업',
-            img: 'assets/image/introduce/skill_springboot.png'
-          },
-          {
-            skillNm: 'HTML',
-            level: '연습',
-            content: '태그를 활용한 마크업',
-            img: 'assets/image/introduce/skill_git.png'
-          },
-          {
-            skillNm: 'HTML',
-            level: '실무',
-            content: '태그를 활용한 마크업',
-            img: 'assets/image/introduce/skill_css.png'
-          },
-          {
-            skillNm: 'HTML',
-            level: '기초',
-            content: '태그를 활용한 마크업',
-            img: 'assets/image/introduce/skill_html.png'
-          },
-          {
-            skillNm: 'HTML',
-            level: '연습',
-            content: '태그를 활용한 마크업',
-            img: 'assets/image/introduce/skill_java.png'
-          },
-          {
-            skillNm: 'HTML',
-            level: '실무',
             content: '태그를 활용한 마크업',
             img: 'assets/image/introduce/skill_javascript.png'
           },

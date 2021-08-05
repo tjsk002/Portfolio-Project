@@ -98,7 +98,6 @@ export class ProjectService {
         img: 'assets/image/project/starbucks.JPG',
         // url: 'www.naver.com'
       }
-
     ]
   };
 
