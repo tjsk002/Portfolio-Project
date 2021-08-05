@@ -3,10 +3,9 @@
     <div>
       <div class="slide">
         <div class="slideBox">
-          발전하는 개발자 00님입니다.
+          발전하는 신입 개발자 임선아입니다.
           <div>
-            <p>현재 이 페이지는 도커 기능을 테스트하며,</p>
-            <p>추후 포트폴리오 페이지로 제작하기 위한 페이지입니다.</p>
+            <p>현재 이 페이지는 도커 기능을 테스트하며,<br>포트폴리오 페이지로 제작하기 위한 페이지입니다.</p>
             <p class="text-effect"></p>
           </div>
         </div>
@@ -21,29 +20,29 @@
       <h2>Skills</h2>
       <p>
         웹 개발 파트별로 정리한 간략한 기술 스택입니다.<br>
-        분야별 기술에 대하여 더 자세한 내용은 소개 페이지에서 확인 하실 수 있습니다. 메롱
+        분야별 기술에 대하여 더 자세한 내용은 소개 페이지에서 확인 하실 수 있습니다.
       </p>
-      <ul>
+      <ul class="skills-stack">
         <li>
           <div>
             <img src="assets/image/main/frontend.png">
             <h3>Frontend</h3>
           </div>
-          <p>HTML·CSS·JQuery 웹 퍼블리싱<br>Vue·React SPA 개발</p>
+          <p>html·css·JQuery·JavaScript 웹 퍼블리싱<br>Angular 기반 TypeScript SPA 개발</p>
         </li>
         <li>
           <div>
             <img src="assets/image/main/backend.png">
             <h3>Backend</h3>
           </div>
-          <p>SpringBoot·NodeJS API 구축<br>MySQL DB 스키마 설계</p>
+          <p>Java·SpringBoot·JSP CRUD 구축<br>MySQL DB</p>
         </li>
         <li>
           <div>
             <img src="assets/image/main/server.png">
             <h3>Devops</h3>
           </div>
-          <p>Linux·AWS 서버 구축<br>Git 버전관리</p>
+          <p>Git 버전관리<br>-</p>
         </li>
       </ul>
     </div>
@@ -53,18 +52,16 @@
     <div>
       <ul>
         <li>
-          <a href="/project">
-            <h3>000 상세소개</h3>
-            <p>000은 누구이며</p>
-            <p>000은 어떠한 프로젝트 및 경력이 있는지 소개</p>
+          <a [routerLink]="['/project']">
+            <h3>회사 프로젝트</h3>
+            <p>000은 어떠한 프로젝트<br>000은 어떠한 프로젝트 및 경력이 있는지 소개</p>
             <div class="more">상세 보기<i class="mdi mdi-arrow-right"></i></div>
           </a>
         </li>
         <li>
-          <a href="/project?scroll=private">
+          <a [routerLink]="['/project']">
             <h3>개별 프로젝트 소개</h3>
-            <p>학습용, 간단한 서비스 등의 개발 활동을 </p>
-            <p>소개하기 위한 페이지</p>
+            <p>학습용, 간단한 서비스 등의 개발 활동을<br>소개하기 위한 페이지</p>
             <div class="more">상세 보기<i class="mdi mdi-arrow-right"></i></div>
           </a>
         </li>

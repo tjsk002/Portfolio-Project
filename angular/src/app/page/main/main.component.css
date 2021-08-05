@@ -19,7 +19,7 @@ main section > div {
 }
 
 .index .visual .slide {
-  font-size: 36px;
+  font-size: 25px;
   color: #004abf;
   padding: 130px 0 0 700px;
   line-height: 80px;
@@ -54,7 +54,7 @@ main section > div {
 }
 
 .index .visual .slide p {
-  font-size: 20px;
+  font-size: 17px;
   color: #666;
   line-height: initial;
 }
@@ -106,7 +106,11 @@ main section > div {
 
 .index .skills ul p {
   font-size: 14px;
-  padding: 0px;
+  padding: 0;
+}
+
+.skills-stack li div{
+
 }
 
 .index .projects {
@@ -115,7 +119,7 @@ main section > div {
 
 .index .projects > div {
   text-align: center;
-  padding: 32px 0px;
+  padding: 32px 0;
 }
 
 main section > div {

@@ -23,21 +23,26 @@ body, input, select, textarea, button {
 
 element.style {
 }
+
 main > div {
   padding: 40px 0;
 }
+
 html, body, h1, h2, h3, h4, h5, h6, div, p, blockquote, pre, code, address, ul, ol, li, menu, nav, section, article, aside, dl, dt, dd, table, thead, tbody, tfoot, label, caption, th, td, form, fieldset, legend, hr, input, button, textarea, object, figure, figcaption {
   margin: 0;
   padding: 0;
 }
+
 * {
   outline: 0 !important;
   box-sizing: border-box;
 }
+
 user agent stylesheet
 div {
   display: block;
 }
+
 body, input, select, textarea, button {
   border: none;
   font-size: 12px;
@@ -46,6 +51,7 @@ body, input, select, textarea, button {
   font-weight: 300;
   background: transparent;
 }
+
 body {
   width: 100%;
   background: #fff;
@@ -92,7 +98,6 @@ main .location .path {
   margin: 0 14px 0 0;
   position: relative;
 }
-
 
 main .location .path.on {
   color: #004abf;

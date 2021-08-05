@@ -2,10 +2,10 @@
   <div class="header-Box">
     <nav class="header-menu">
       <ul>
-        <li class="navActive">
-          <a [routerLink]="['/']">Home</a>
+        <li [routerLinkActive]="'active'">
+          <a [routerLink]="['/home']">Home</a>
         </li>
-        <li class="navActive">
+        <li [routerLinkActive]="'active'">
           <a [routerLink]="['/introduce']">Introduce</a>
         </li>
         <li [routerLinkActive]="'active'">
@@ -13,6 +13,16 @@
         </li>
         <li [routerLinkActive]="'active'">
           <a [routerLink]="['/history']">History</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="right-menu">
+      <ul>
+        <li>
+          <a href="https://github.com/tjsk002" target="_blank" title="깃 바로가기">GitHub</a>
+        </li>
+        <li>
+          <a href="https://blog.naver.com/tjsk002" target="_blank" title="네이버 블로그 바로가기">Naver Blog</a>
         </li>
       </ul>
     </nav>
