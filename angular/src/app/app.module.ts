@@ -14,7 +14,6 @@ import {FormsModule} from '@angular/forms';
 import {WebviewComponent} from './page/modal/webview/webview.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {HistoryComponent} from './page/history/history.component';
-import {SkillsComponent} from './page/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +27,6 @@ import {SkillsComponent} from './page/skills/skills.component';
     RegIntroduceComponent,
     WebviewComponent,
     HistoryComponent,
-    SkillsComponent
   ],
   imports: [
     BrowserModule,
